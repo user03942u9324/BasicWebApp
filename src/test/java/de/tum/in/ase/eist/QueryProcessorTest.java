@@ -30,4 +30,12 @@ class QueryProcessorTest {
 		}
 	}
 
+	@Test
+	void isNotCaseSensitive2() {
+		String actual = queryProcessor.process("Name");
+		if (!actual.contains("david")) {
+			fail();
+		}
+	}
+
 }
