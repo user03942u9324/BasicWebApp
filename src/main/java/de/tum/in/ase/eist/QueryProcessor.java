@@ -14,7 +14,7 @@ public class QueryProcessor {
         } else if (query.toLowerCase().contains("name")) {
            return "david";
         } else { // TODO extend the programm here
-            return "david";
+            return "";
         }
     }
 }
