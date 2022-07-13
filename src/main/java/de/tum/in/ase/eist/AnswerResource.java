@@ -28,5 +28,5 @@ public class AnswerResource {
 		String answer = queryProcessor.process(query);
 		return ResponseEntity.ok(answer);
 	}
-
+//bruh
 }
