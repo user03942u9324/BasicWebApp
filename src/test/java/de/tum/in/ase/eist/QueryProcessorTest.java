@@ -1,7 +1,6 @@
 package de.tum.in.ase.eist;
 
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -32,9 +31,9 @@ class QueryProcessorTest {
 
 	@Test
 	void isNotCaseSensitive2() {
-		String actual = queryProcessor.process("Name");
+		String actual = queryProcessor.process("name");
 		if (!actual.contains("david")) {
-			fail();
+			fail("Your QueryProcessor is wrong");
 		}
 	}
 
